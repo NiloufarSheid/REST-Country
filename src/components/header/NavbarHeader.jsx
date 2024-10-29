@@ -1,14 +1,20 @@
-import Button from 'react-bootstrap/Button';
+
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
+
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { FOREGROUND } from '../../helpers/colors';
+
 import "./NavbarHeader.css"
+import SearchBar from '../SearchBar';
+import data from "../data.json"
+
 
 
 function NavbarHeader() {
+  
+
   return (
+
    <>
     <Navbar expand="lg" className="navbar-custom">
       <Container >
@@ -26,15 +32,8 @@ function NavbarHeader() {
       </Container>
     </Navbar>
     <Container>
-    <Form className="form-lable"  >
-            <Form.Control
-              type="search"
-              placeholder="search"
-              className="me-2 search-input"
-              aria-label="Search"
-            />
-            <Button className='search-button' variant="outline-success">search</Button>
-          </Form>
+    <SearchBar  placeholder="Search for a country..." data={data}/>
+          
           </Container>
     </>
   );

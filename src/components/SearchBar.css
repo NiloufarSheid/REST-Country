@@ -1,0 +1,32 @@
+.search{
+    border-radius: 5px;
+}
+
+.searchInputs{
+    margin-top: 50px;
+    display: flex;
+    
+
+   
+}
+
+.search input{
+    background-color: #313442;
+    border: 0;
+    font-size: 16px;
+    padding: 25px;
+    height: 30px;
+    width: 300px;
+   
+   
+    
+   
+    
+}
+.searchIcon{
+    width: 50px;
+    background-color: #313442;
+    color: rgb(249, 243, 243);
+    display: grid;
+    place-items: center;
+}
