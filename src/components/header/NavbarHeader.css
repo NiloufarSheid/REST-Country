@@ -1,0 +1,19 @@
+.navbar-custom {
+    height: 10vh;
+    border-bottom: 2px solid rgba(37, 31, 31, 0.2); /* Change color and thickness as needed */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adjust shadow parameters as needed */
+  }
+  .form-lable{
+    display: flex;
+    width: 30%;
+    margin-top: 50px;
+  }
+  .search-input, .search-button {
+    height: 40px; /* Set the same height for both */
+    line-height: 40px; /* Center text vertically */
+  }
+  
+  .search-button {
+    display: flex; /* Ensure button aligns with input */
+    align-items: center; /* Center the content */
+  }
