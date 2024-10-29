@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Vazir,Tahoma,Ubuntu';
+    font-family: 'Nunito', sans-serif;
     src: url('Vazir.eot');
     src: url('Vazir.eot?#iefix') format('embedded-opentype'),
         url('Vazir.woff2') format('woff2'),
@@ -9,4 +9,4 @@
     font-style: normal;
     font-display: swap;
 }
-
+@import url(//fonts.googleapis.com/css? family=Nunito);

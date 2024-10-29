@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 import "./NavbarHeader.css"
 import SearchBar from '../SearchBar';
-import data from "../data.json"
+import  dataArray from "../data.json";
 
 
 
@@ -18,7 +18,7 @@ function NavbarHeader() {
    <>
     <Navbar expand="lg" className="navbar-custom">
       <Container >
-        <Navbar.Brand href="#"><span style={{color:"#FFF"}}>  where in the world?</span></Navbar.Brand>
+        <Navbar.Brand href="#"><span style={{color:"#FFF", fontSize:"25px", fontFamily:"'Nunito', sans-serif"}}>  where in the world?</span></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -32,7 +32,7 @@ function NavbarHeader() {
       </Container>
     </Navbar>
     <Container>
-    <SearchBar  placeholder="Search for a country..." data={data}/>
+    <SearchBar  placeholder="Search for a country..." data={dataArray}/>
           
           </Container>
     </>

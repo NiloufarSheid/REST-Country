@@ -9,4 +9,8 @@
     width: 30%;
     margin-top: 50px;
   }
+  .search input::placeholder {
+    color: #dfd9d9 !important; /* Change this to your desired color */
+    opacity: 1; /* Optional: Set opacity to 1 to ensure it appears fully opaque */
+  }
   
