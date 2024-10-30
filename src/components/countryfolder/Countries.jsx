@@ -6,7 +6,9 @@ import dataArray from "../data.json";
 import { Typography } from '@mui/material';
 
 
+
 function Countries(name,population,region,capital) {
+  
   return (
     <Container className='mt-5 mb-5' >
     <Row xs={1} sm={2} md={4} className="g-5">

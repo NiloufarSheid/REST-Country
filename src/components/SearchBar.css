@@ -1,10 +1,13 @@
 .search{
     border-radius: 5px;
+    width: auto;
+  
 }
 
 .searchInputs{
     margin-top: 50px;
     display: flex;
+
     
 
    

@@ -2,6 +2,8 @@
 import React,{useState} from 'react'; 
 import "./SearchBar.css"
 import SearchIcon from '@mui/icons-material/Search';
+import { Container } from '@mui/material';
+
 
 
 
@@ -24,6 +26,7 @@ else{
 }; 
     
   return (
+ 
     <div className='search'>
         <div className='searchInputs'>
         <div className='searchIcon '><SearchIcon/></div>
@@ -45,6 +48,8 @@ else{
 
         )}
     </div>
+
+  
   );
 }
 

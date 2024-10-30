@@ -1,0 +1,26 @@
+
+.selectCountries{
+background-color: #313442;
+border: 0;
+color: rgb(246, 236, 222);  
+
+
+
+}
+.filterCon{
+    width: 30px;
+}
+.labalCon{
+    display: flex;
+    flex-direction: column;
+    background-color: #313442;
+    width: 20%;
+    margin-top: 10px;
+    text-align: center;
+align-items: center;
+    
+}
+.optionCountries{
+    background-color: #313442;
+    color: rgb(246, 236, 222); 
+}
